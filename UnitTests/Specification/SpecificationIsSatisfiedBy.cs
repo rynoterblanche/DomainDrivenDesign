@@ -1,4 +1,7 @@
 ﻿using UnitTests.Specification.Fixture.Entities;
+using UnitTests.Specification.Fixture.Specs;
+
+namespace UnitTests.Specification;
 
 public class SpecificationIsSatisfiedBy
 {
