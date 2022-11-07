@@ -1,8 +1,11 @@
 ﻿# Specification Pattern
 
+A simple starter implementation of the specification pattern - this abstraction can be used to encapsulate 
+business logic with strongly typed, reusable specifications.
+
 ## What is the Specification pattern?
 
-- Helps avoid domain knowledge duplication ( apply DRY )
+- Helps avoid domain knowledge duplication ( DRY principle)
 - Provides declarative approach to defining domain logic ( improved maintenance )
 
 ## What are the use cases?
@@ -19,4 +22,4 @@
 ## Use Specifications when?
 
 - You have to cover more than one of the above use cases
-- Your codebase has become complex and you need ensure DRY (do not repeat yourself)
+- Your codebase has become complex and you need ensure DRY (don't repeat yourself)
