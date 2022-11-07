@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Specification\Specification.csproj" />
+    <ProjectReference Include="..\ValueObject\ValueObject.csproj" />
   </ItemGroup>
 
 </Project>
