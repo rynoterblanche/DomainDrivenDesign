@@ -3,7 +3,9 @@
 namespace Specification.Rt.Specification;
 
 /// <summary>
-/// A starter implementation of a specification abstraction
+/// An abstraction to derive domain specifications from.
+///
+/// This is a simple starter implementation that can be further extended.
 /// </summary>
 /// <typeparam name="T"></typeparam>
 public abstract class Specification<T>

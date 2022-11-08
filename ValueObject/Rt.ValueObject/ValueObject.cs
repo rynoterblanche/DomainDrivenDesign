@@ -1,5 +1,10 @@
 ﻿namespace ValueObject.Rt.ValueObject;
 
+/// <summary>
+/// An abstraction to derive domain Value Objects from.
+///
+/// This is a simple starter implementation that can be further extended as required.
+/// </summary>
 public abstract class ValueObject
 {
     protected abstract IEnumerable<object> GetEqualityComponents();
